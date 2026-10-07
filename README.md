@@ -56,7 +56,7 @@ A Webex Contact Center (WxCC) Agent Desktop widget that adds up to three one-cli
 The script is served from this repo by GitHub Pages:
 
 ```
-https://krich5.github.io/WxCC_SpeedDial/index.js
+https://krich5.github.io/SpeedDial/index.js
 ```
 
 To host your own copy, fork this repo and turn on GitHub Pages, or upload `index.js` to any static HTTPS host.
@@ -68,7 +68,7 @@ The component name is `conference-control-ui`. Place it in the interaction panel
 ```json
 {
   "comp": "conference-control-ui",
-  "script": "https://krich5.github.io/WxCC_SpeedDial/index.js",
+  "script": "https://krich5.github.io/SpeedDial/index.js",
   "properties": {
     "button1_name": "Nurse Line",
     "button1_dn": "+15555550101",

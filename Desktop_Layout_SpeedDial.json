@@ -16,7 +16,7 @@
       "advancedHeader": [
         {
           "comp": "conference-control-ui",
-          "script": "https://krich5.github.io/WxCC_SpeedDial/index.js",
+          "script": "https://krich5.github.io/SpeedDial/index.js",
           "properties": {
             "button1_name": "Nurse Line",
             "button1_dn": "+15555550101",

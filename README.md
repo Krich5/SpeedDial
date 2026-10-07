@@ -120,4 +120,4 @@ A button only renders when **both** its `_name` and `_dn` are set.
 
 ## License
 
-Released under the [MIT License](LICENSE).
+See [LICENSE](LICENSE).

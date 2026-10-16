@@ -90,6 +90,19 @@ The component name is `conference-control-ui`. Place it in the interaction panel
 
 In **Control Hub → Contact Center → Desktop Layouts**, upload the layout and assign it to the team(s) that should get the buttons. Agents must sign out and back in to pick up the new layout.
 
+## Compact mode
+
+The three buttons take about 365 pixels of header width while a call is active. On a crowded header, turn on compact mode to replace them with a single **Speed Dial** button, about 110 pixels wide. It only appears during a call, like the buttons do. Clicking it opens a small list of your destinations, and picking one starts the consult and closes the list. The list also closes if you click anywhere else, and the button is greyed out while a consult is in progress.
+
+Add `compact` to the widget's attributes in the layout:
+
+```json
+"attributes": {
+  "darkmode": "$STORE.app.darkMode",
+  "compact": "true"
+}
+```
+
 ## Properties
 
 | Property | Required | Description |
@@ -100,6 +113,8 @@ In **Control Hub → Contact Center → Desktop Layouts**, upload the layout and
 | `details` | Yes | The agent's task map (`$STORE.agentContact.taskMap`), used to read the call state when the widget first loads |
 | `selected_task` | No | The currently selected task. Only written to debug logs |
 | `agent_id` | No | The agent's ID. Only written to debug logs |
+| `compact` | No | Set to `"true"` (as an attribute) to replace the three buttons with one **Speed Dial** button that opens a small list. Default is the three buttons |
+| `compact-label` | No | The text on the compact button. Default `Speed Dial` |
 
 A button only renders when **both** its `_name` and `_dn` are set.
 

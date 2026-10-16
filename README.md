@@ -98,6 +98,8 @@ The widget takes no header width when there's no call, and only as much as its b
 
 The three buttons take about 365 pixels of header width while a call is active. On a crowded header, turn on compact mode to replace them with a single **Speed Dial** button, about 110 pixels wide. It only appears during a call, like the buttons do. Clicking it opens a small list of your destinations, and picking one starts the consult and closes the list. The list also closes if you click anywhere else, and the button is greyed out while a consult is in progress.
 
+The button and the list are styled to match the Cisco state bar: the same rounded corners, thin border and height. Each destination fills the full width of the list.
+
 Add `compact` to the widget's attributes in the layout:
 
 ```json

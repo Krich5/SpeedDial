@@ -90,6 +90,10 @@ The component name is `conference-control-ui`. Place it in the interaction panel
 
 In **Control Hub → Contact Center → Desktop Layouts**, upload the layout and assign it to the team(s) that should get the buttons. Agents must sign out and back in to pick up the new layout.
 
+## Header space
+
+The widget takes no header width when there's no call, and only as much as its buttons need during one. (An earlier version reserved a fixed 500 pixels at all times, which pushed other header items off the screen.)
+
 ## Compact mode
 
 The three buttons take about 365 pixels of header width while a call is active. On a crowded header, turn on compact mode to replace them with a single **Speed Dial** button, about 110 pixels wide. It only appears during a call, like the buttons do. Clicking it opens a small list of your destinations, and picking one starts the consult and closes the list. The list also closes if you click anywhere else, and the button is greyed out while a consult is in progress.

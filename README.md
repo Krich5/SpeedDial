@@ -2,7 +2,7 @@
 
 A Webex Contact Center (WxCC) Agent Desktop widget that adds up to three one-click **speed dial consult buttons** to the interaction panel. During a voice call, the agent clicks a button, such as "Nurse Line" or "Supervisor", and the widget starts a consult to that number. The agent doesn't have to open the consult dialog and type or look up the destination.
 
-<!-- Optional: add a screenshot, e.g. ![Speed dial buttons on an active call](screenshot.png) -->
+![The Speed Dial button and its destination list during a call](images/speed-dial.webp)
 
 ## What it does
 
